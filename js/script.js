@@ -20,8 +20,8 @@ $(document).ready(function () {
   // REGISTER DOM ELEMENTS
   const $messageField = $("#message-field");
   // EXPO PUSH SERVER
-  const EXPO_PUSH_ENDPOINT = "http://exp.host/--/api/v2/push/send";
-  const NTUE_PUSH_ENDPOINT = "http://ntuepushserver.herokuapp.com/tokens";
+  const EXPO_PUSH_ENDPOINT = "https://exp.host/--/api/v2/push/send";
+  const NTUE_PUSH_ENDPOINT = "https://ntuepushserver.herokuapp.com/tokens";
 
   // LISTEN FOR KEYPRESS EVENT
   $messageField.keypress(function (e) {
